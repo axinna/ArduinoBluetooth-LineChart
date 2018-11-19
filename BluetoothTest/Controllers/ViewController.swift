@@ -54,7 +54,7 @@ final class ViewController: UIViewController {
 
 
     @IBAction func testButton(_ sender: Any) {
-        print("did press button")
+        print("did press button！")
         wenduLineChart.dataEntries = self.wenduDataEntries.showDataEntries()
         wenduLineChart.isCurved = false
         xinlvLineChart.dataEntries = self.xinlvDataEntries.showDataEntries()
